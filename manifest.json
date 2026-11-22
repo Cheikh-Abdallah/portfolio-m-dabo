@@ -1,0 +1,24 @@
+{
+  "name": "Portfolio M. DABO - Formations Informatique",
+  "short_name": "M. DABO",
+  "description": "Plateforme de formations en informatique, bureautique et développement web au Sénégal.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/dabol.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/dabol.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
