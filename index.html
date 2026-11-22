@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M. DABO — Portfolio de Formateur en Informatique</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/dabo.png" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Effet de fond animé -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar reveal">
+        <div class="logo">
+            <img src="assets/dabo.png" alt="M. DABO">
+            <span>M. DABO</span>
+        </div>
+        <div class="nav-links">
+            <a href="#formations">Formations</a>
+            <a href="#contact" class="btn-contact">Me contacter</a>
+        </div>
+    </nav>
+
+    <!-- Section Héro -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="badge reveal">
+                <img src="assets/senegal.jpg" alt="Sénégal" class="flag-icon">
+                Formateur & Ingénieur Logiciel
+            </div>
+            <h1 class="reveal">L'excellence de la <span class="gradient-text">formation informatique</span> au Sénégal.</h1>
+            <p class="reveal">Découvrez mes programmes conçus pour l'Institut Supérieur d'Informatique (ISI), Bio Amarie Academy et Home School. De la bureautique au développement web full stack.</p>
+            <div class="hero-actions reveal">
+                <a href="#formations" class="btn btn-primary">Explorer les formations</a>
+            </div>
+        </div>
+        <div class="hero-image reveal">
+            <div class="img-wrapper">
+                <img src="assets/dabo.png" alt="M. DABO">
+            </div>
+        </div>
+    </header>
+
+    <!-- Section Formations (Cartes Interactives) -->
+    <section id="formations" class="section">
+        <div class="section-header reveal">
+            <h2>Mes Programmes de Formation</h2>
+            <p>Cliquez sur un programme pour accéder à l'espace de cours dédié.</p>
+        </div>
+
+        <div class="grid-formations">
+            
+            <!-- Carte ISI -->
+            <a href="https://courscompletjs-phpl2ri-glisi.vercel.app/" target="_blank" class="card reveal">
+                <div class="card-glow"></div>
+                <img src="assets/isi.webp" alt="ISI" class="card-logo">
+                <h3>Cours Complet JS & PHP</h3>
+                <p>Développement Web Full Stack pour la Licence 2 RI & GL.</p>
+                <span class="card-tag">Institut Supérieur d'Informatique</span>
+                <div class="card-arrow">→</div>
+            </a>
+
+            <!-- Carte Bio Amarie BT1/BTS1 -->
+            <a href="https://formationinformatiquebt1bts1.vercel.app/" target="_blank" class="card reveal">
+                <div class="card-glow"></div>
+                <img src="assets/bio-amarie.jpg" alt="Bio Amarie" class="card-logo">
+                <h3>Initiation Informatique</h3>
+                <p>Bureautique et outils numériques pour les classes BT1 & BTS1.</p>
+                <span class="card-tag">Bio Amarie Academy</span>
+                <div class="card-arrow">→</div>
+            </a>
+
+            <!-- Carte Bio Amarie BT3/BTS2 -->
+            <a href="https://informatiquebt3bts2.vercel.app/" target="_blank" class="card reveal">
+                <div class="card-glow"></div>
+                <img src="assets/bio-amarie.jpg" alt="Bio Amarie" class="card-logo">
+                <h3>Informatique Avancée</h3>
+                <p>Approfondissement des outils scientifiques pour BT3 & BTS2.</p>
+                <span class="card-tag">Bio Amarie Academy</span>
+                <div class="card-arrow">→</div>
+            </a>
+
+            <!-- Carte Home School Bureautique -->
+            <a href="https://formationbureautiquehomeschool.vercel.app/" target="_blank" class="card reveal">
+                <div class="card-glow"></div>
+                <img src="assets/home-school.png" alt="Home School" class="card-logo">
+                <h3>Informatique Bureautique</h3>
+                <p>Maîtrisez Word, Excel et PowerPoint de A à Z.</p>
+                <span class="card-tag">Home School</span>
+                <div class="card-arrow">→</div>
+            </a>
+
+            <!-- Carte Home School Dev Web -->
+            <a href="https://devwebhomeschool.vercel.app/" target="_blank" class="card reveal">
+                <div class="card-glow"></div>
+                <img src="assets/home-school.png" alt="Home School" class="card-logo">
+                <h3>Développement Web</h3>
+                <p>Devenez développeur Full Stack : HTML, CSS, JS, PHP.</p>
+                <span class="card-tag">Home School</span>
+                <div class="card-arrow">→</div>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer reveal">
+        <h2>Prêt à commencer votre formation ?</h2>
+        <p>Contactez-moi pour toute question ou inscription.</p>
+        <div class="contact-info">
+            <a href="tel:+221771617044" class="contact-item">📞 +221 77 161 70 44</a>
+            <a href="mailto:daboabdoulaye062@gmail.com" class="contact-item">✉️ daboabdoulaye062@gmail.com</a>
+        </div>
+        <div class="footer-logos">
+            <img src="assets/isi.webp" alt="ISI">
+            <img src="assets/bio-amarie.jpg" alt="Bio Amarie">
+            <img src="assets/home-school.png" alt="Home School">
+        </div>
+        <p class="copyright">© 2026-2027 M. DABO. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
